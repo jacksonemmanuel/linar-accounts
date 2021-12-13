@@ -6,7 +6,7 @@ Fontawesome icons and twitter bootstrap used.
 
 Follow instructions in `sql.txt` to run on your machine
 
-### Admin login Page
+### Admin Login Page
 ![Screenshot from 2021-08-27 02-50-12](https://user-images.githubusercontent.com/71940927/145839125-75f5d2fe-5929-4f22-a6a9-a41322d1ad93.png)
 ### Dashboard
 ![Screenshot from 2021-08-27 02-50-19](https://user-images.githubusercontent.com/71940927/145839131-747211a3-b5a4-4667-b676-9e0bd01c923a.png)
