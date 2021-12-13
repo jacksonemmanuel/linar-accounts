@@ -3,6 +3,7 @@ A transaction processing information system.
 
 An old project at <a href="https://linar.ng/">Linar School of Media and ICT</a>.
 Fontawesome icons and twitter bootstrap.
+<p>Follow instructions in <code>sql.txt</code> to run on your machine</p>
 
 <h3>Login Page</h3>
 ![Screenshot from 2021-08-27 02-50-12](https://user-images.githubusercontent.com/71940927/145839125-75f5d2fe-5929-4f22-a6a9-a41322d1ad93.png)
