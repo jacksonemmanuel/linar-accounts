@@ -1,0 +1,11 @@
+#Start up your xampp server and go to http://localhost/phpmyadmin/index.php?route=/server/sql to begin.
+#Copy the following code in the query box and click "GO"
+
+CREATE DATABASE `linarAccounts`;
+CREATE TABLE `Administrators` (`ID` INT(10) PRIMARY KEY AUTO_INCREMENT, `FirstName` VARCHAR(255), `LastName` VARCHAR(255), `Username` VARCHAR(255), `EmailAddress` VARCHAR(255), `Password` VARCHAR(255), `RegistrationTime` TIMESTAMP);
+CREATE TABLE `Students` (`ID` INT(10) PRIMARY KEY AUTO_INCREMENT, `FirstName` VARCHAR(255), `LastName` VARCHAR(255), `EmailAddress` VARCHAR(255), `PhoneNumber` VARCHAR(255), `Course` VARCHAR(255), `Cost` VARCHAR(255), `RegistrationTime` TIMESTAMP);
+CREATE TABLE `StudentInvoice` (`StudentID` INT(3) PRIMARY KEY AUTO_INCREMENT, `Course` VARCHAR(255), `Cost` INT(10), `AmountPaid` INT(10), `Debt` INT(10), `Timestamp` TIMESTAMP);
+CREATE TABLE `LibraryUsers` (`ID` INT(10) PRIMARY KEY AUTO_INCREMENT, `FirstName` VARCHAR(255), `LastName` VARCHAR(255), `EmailAddress` VARCHAR(255), `PhoneNumber` VARCHAR(255), `Duration` VARCHAR(255), `PlanBegin` DATE, `PlanEnd` DATE, `Cost` VARCHAR(255), `RegistrationTime` TIMESTAMP);
+CREATE TABLE `LibraryUserInvoice` (`LibraryUserID` INT(3) PRIMARY KEY AUTO_INCREMENT, `Duration` VARCHAR(255), `Cost` INT(10), `AmountPaid` INT(10), `Debt` INT(10), `Timestamp` TIMESTAMP);
+
+#Open adminReg.php and follow the instructions on line 6
